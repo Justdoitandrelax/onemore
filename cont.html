@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <ul class="list">
+            <div class="logo">
+                <a href="#0"><img src="assets/img/ty.png" alt="лого"></a>
+            </div>
+           
+            <input type="checkbox" id="menu-mobile" class="menu-mobile">
+            <label for="menu-mobile" class="toggle-button">
+                <span class="line"></span>
+            </label>
+
+            <nav class="items">
+                <li><a href="index.html" class="item">Главная</a></li>
+                <li><a href="serv.html" class="item">Услуги</a></li>
+                <li><a href="cont.html" class="item">Обратная связь</a></li>
+            </nav>
+        </ul>
+    </div>
+
+    <div class="content_form">
+        <div class="info">
+            <img src="assets/img/catdog.png" alt="кошка и собака">
+        <form class="form">
+                <label>Имя<span>*</span></label>
+                <input type="text" placeholder="Имя" required>
+                <label>Телефон<span>*</span></label>
+                <input type="text" placeholder="Телефон" required>
+                <div class="check">
+                    <label>Собака</label>
+                    <input type="checkbox">
+                    <label>Кошка</label>
+                    <input type="checkbox">
+                    <label>Птица</label>
+                    <input type="checkbox">
+                    <label>Свой вариант</label>
+                    <input type="checkbox">
+                </div>
+                <input type="text">
+                <label>Выберите услугу</label>
+                <select class="select" size="" multiple="multiple">
+                    <optgroup label="Груминг">
+                        <option value="стрижка шерсти">стрижка шерсти</option>
+                        <option value="обработка когтей">обработка когтей</option>
+                        <option value="шерсть + когти">шерсть + когти</option>
+                    </optgroup>
+                    <optgroup label="Услуги ветиринара">
+                        <option value="первичный прием">первичный прием</option>
+                        <option value="повторный прием">повторный прием</option>
+                        <option value="сдать анализы">сдать анализы</option>
+                    </optgroup>
+                    <optgroup label="Передержка">
+                        <option value="услуги няни">услуги няни</option>
+                        <option value="размещение в зоогостинице">размещение в зоогостинице</option>
+                        <option value="размещение с медицинским наблюдением">размещение с медицинским наблюдением</option>
+                    </optgroup>
+                </select>
+                <label>Дополнительная информация</label>
+                <textarea name="" id="" cols="38" rows="10"></textarea>
+                <button class="btn">отправить</button>
+        </form>
+        </div>
+    </div>
+
+    <script>
+
+
+    </script>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+    
+</body>
+</html>
